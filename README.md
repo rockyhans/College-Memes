@@ -58,46 +58,36 @@ This full-stack application is designed to help students express, interact, and 
 ```bash
 git clone https://github.com/rockyhans/college-meme-app
 cd college-meme-app
+```
 2️⃣ Setup Environment Variables
 
 Create a .env file in the /backend directory:
 
-ini
-Copy
-Edit
+```
 PORT=5000
 MONGO_DB_URI=mongodb://localhost:27017/college-meme
 JWT_SECRET=yourSecretKey
+```
 3️⃣ Install Dependencies
 
-Backend:
-
-bash
-Copy
-Edit
+```
 cd backend
 npm install
+```
+
 Frontend:
 
-bash
-Copy
-Edit
+```
 cd frontend
 npm install
+```
+
 ▶️ Run the app:
 
-Backend:
-
-bash
-Copy
-Edit
+```
 npm run dev
-Frontend (Vite):
+```
 
-bash
-Copy
-Edit
-npm run dev
 🌐 The app will be live at:
 
 Frontend → http://localhost:5173
@@ -105,9 +95,8 @@ Frontend → http://localhost:5173
 Backend → http://localhost:5000
 
 📁 Project Structure
-bash
-Copy
-Edit
+
+```
 college-meme-app/
 ├── backend/
 │   ├── models/
@@ -120,7 +109,10 @@ college-meme-app/
 │   │   ├── pages/
 │   │   └── App.jsx
 │   └── vite.config.js
-📸 Features in Action
+```
+
+### 📸 Features in Action
+
 Admins can create groups for their colleges
 
 Users can join only after approval by their respective college admin
@@ -129,7 +121,7 @@ Posts can contain memes (images/videos) and text
 
 Only users from the same college can see their group’s posts
 
-📅 Project Status
+### 📅 Project Status
 This project is in active development. Upcoming features include:
 
 🔐 OAuth login

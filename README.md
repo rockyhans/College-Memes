@@ -1,7 +1,7 @@
 <h1 align="center" style="color:#2c3e50;">🎓 College Memes</h1>
 
 <p align="center">
-  <img src="./preview.png" alt="College Meme App Preview" width="700"/>
+  <img src="./immmmpppp.jpg" alt="College Meme App Preview" width="700"/>
 </p>
 
 <p align="center">
